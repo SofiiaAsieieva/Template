@@ -1,2 +1,2 @@
 # Template
-Template(no framewokr) frontend project
+Template(no framework) frontend project
