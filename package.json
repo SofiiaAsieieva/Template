@@ -1,0 +1,40 @@
+{
+  "name": "vanilla-template",
+  "version": "1.0.0",
+  "description": "Template for vanilla(no framework) frontend projects",
+  "main": "./src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "rm -rf ./docs",
+    "build": "parcel build --out-dir docs --public-url ./ ./src/index.html",
+    "start": "parcel serve ./src/index.html --open",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SofiiaAsieieva/template.git"
+  },
+  "keywords": [
+    "template",
+    "boilerplate",
+    "html",
+    "scss",
+    "javascript",
+    "parcel",
+    "eslint"
+  ],
+  "author": "YuriiHoliuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SofiiaAsieieva/template/issues"
+  },
+  "homepage": "https://github.com/SofiiaAsieieva/template#readme",
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {}
+}
